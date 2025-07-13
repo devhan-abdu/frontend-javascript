@@ -1,8 +1,8 @@
 interface Student {
-    firstName:string;
-    lastName:string;
-    age:number;
-    location:string;
+    firstName: string;
+    lastName: string;
+    age: number;
+    location: string;
 }
 
 
@@ -10,7 +10,7 @@ interface Student {
 const student1: Student = {firstName:"hanan" , lastName:"abdulshikur" , age:12 , location:"addis ababa"}
 const student2: Student = {firstName:"halima" , lastName:"mahi" , age:24 , location:"burayo"}
 
-const studentsList:Student[] = [student1 , student2];
+const studentsList: Student[] = [student1 , student2];
 
 // table formula 
 
